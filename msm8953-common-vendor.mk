@@ -74,6 +74,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V2.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.ims.rcsconfig-V2.0-java.jar \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V2.1-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.ims.rcsconfig-V2.1-java.jar \
     vendor/xiaomi/msm8953-common/proprietary/product/framework/com.android.hotwordenrollment.common.util.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/com.android.hotwordenrollment.common.util.jar \
+    vendor/xiaomi/msm8953-common/proprietary/system_ext/lib/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.sensorscalibrate@1.0.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libdiag_system.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmosal.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmparser_lite.so \
@@ -103,6 +104,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptXHD_encoder.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptX_encoder.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdiag_system.so \
+    vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/libdpmctmgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmctmgr.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/libdpmfdmgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmfdmgr.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/libdpmframework.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmframework.so \
@@ -359,7 +361,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdsprpc.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor1.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libsensor_reg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_reg.so \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libsensor_thresh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_thresh.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libsensor_user_cal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_user_cal.so \
+   vendor/xiaomi/msm8953-common/proprietary/vendor/lib/sensor_calibrate.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_calibrate.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libsmwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmwrapper.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libsurround_3mic_proc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsurround_3mic_proc.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libsysmon_cdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysmon_cdsp_skel.so \
@@ -576,7 +580,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libsecureui_svcsock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecureui_svcsock.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor1.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libsensor_reg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_reg.so \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libsensor_thresh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_thresh.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libsensor_user_cal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_user_cal.so \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/sensor_calibrate.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensor_calibrate.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libsettings.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsettings.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libspl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspl.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libslimclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libslimclient.so \
